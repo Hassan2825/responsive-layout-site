@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;  
+    margin: auto;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #ffffff;
+}
+li {
+    list-style-type: none;
+    margin-top: 5px;
+    border: solid; 
+    border-color: white;
+    background-color: white;   
+}
+#headline {
+    margin: auto;
+    background-color: #fafafa
+
+}
