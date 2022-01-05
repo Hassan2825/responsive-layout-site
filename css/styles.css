@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box ;
-    margin: auto;
+    margin: 1rem auto;
 }
 
 h1 {
@@ -12,22 +12,29 @@ p {
 }
 
 header {
+    margin-top: -55px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     background-color: #fafafa;
 }
 
 footer {
+    padding-top: 3rem;
     background-color: #fafafa;
+    margin-top: 70px;
+    margin-bottom: -35px;
 }
 
 li {
     margin-right: 40px;
     list-style-type: none;
-    margin-top: 5px;
-    border: 12px solid white ;
+    margin-top: 10px;
+    border: 10px solid white ;
     background-color: white;
 }
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    text-align: center;
+    text-align: center;  
 }
+

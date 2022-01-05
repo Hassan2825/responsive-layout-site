@@ -1,6 +1,20 @@
 
 /*--BASE STYLES --*/
 
+button {
+ display: flex;
+}
+    
+    
+}
 
 /*--MEDIA QUERIES --*/
+
+@media screen (min-width: 768px) {
+    display: flex;
+}
+
+@media screen (min-width: 1024px) {
+    display: flex;
+}
 
