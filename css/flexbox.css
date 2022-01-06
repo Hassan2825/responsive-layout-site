@@ -1,14 +1,20 @@
 
 /*--BASE STYLES --*/
 
-button {
- display: flex;
-}
-    
-    
+.container1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fafafa;
 }
 
-/*--MEDIA QUERIES --*/
+.container2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
+
+/* MEDIA QUERIES */
 
 @media screen (min-width: 768px) {
     display: flex;
@@ -16,5 +22,5 @@ button {
 
 @media screen (min-width: 1024px) {
     display: flex;
-}
-
+} 
+ 
