@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
         <title>Responsive Layout Profile</title> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +12,13 @@
     </head>
 <body>
 <header>
-    <section class="container1">
+    <section class="container1" id="home-page">
         <h1 class="student-name">Hassan Issa</h1>
         <div class="nav1">
             <ul>
-                <li><a href="index.html" class="home-nav">HOME</a></li>
-                <li><a href="portfolio" class="portfolio-nav">PORTFOLIO</a></li>
-                <li><a href="nav-contact" class="contact-nav">CONTACT</a></li>
+                <li><a href="#home-page" class="home-nav">HOME</a></li>
+                <li><a href="#portfolio-2" class="portfolio-nav">PORTFOLIO</a></li>
+                <li><a href="#contact-2" class="contact-2">CONTACT</a></li>
             </ul>  
         </div>
     </section>
@@ -31,7 +32,7 @@
             </p>
     </section>
 </header>
-            <h4 class="portfolio">PORTFOLIO</h4>
+            <h4 class="portfolio" id="portfolio-2">PORTFOLIO</h4>
     <section class="container2">
         <div class="item">
             <img src="images/portfolio-1.png" alt="picture of marketing page" >
@@ -83,7 +84,7 @@
         <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>      
     </div>
 
-    <div class="nav-contact">
+    <div class="nav-contact" id="contact-2">
         <a href ="+1(111)5550-1234">Phone +1(111)5550-1234</a><br>
         <a href="mailto:email@yoursite.com">Email email@yoursite.com</a>
         <hr>  
@@ -92,6 +93,15 @@
     <div class="footer-nav">
         <H4 class="footer-name">Student Name</H4>
         <a href="#">BACK TO TOP</a>
+    </div>
+
+    <div class="footer-2">
+        <h3><a href="home-page">Hassan Issa</a></h3>
+        <ul>
+            <li><a href="#home-page" class="home-nav">HOME</a></li>
+            <li><a href="#portfolio-2" class="portfolio-nav">PORTFOLIO</a></li>
+            <li><a href="#contact-2" class="contact-2">CONTACT</a></li>
+        </ul> 
     </div>
     </footer>
 </body>
